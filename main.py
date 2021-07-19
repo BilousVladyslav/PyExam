@@ -8,7 +8,7 @@ reader = ExamReader(PATH)
 
 data = reader.to_dataclasses()
 
-data.questions = data.questions[:3]
+# data.questions = data.questions[:3]
 
 examiner = Examiner(data)
 
