@@ -1,4 +1,5 @@
 import random
+from datetime import datetime
 from .models import SimpleExam, Question, Answer
 
 
@@ -31,6 +32,8 @@ class Examiner:
                 print(f'    Your: {item["answered"].message}', end='\n\n')
 
     def start(self):
+        start_date = datetime.now()
+        print(f'Start date: {start_date.strftime("%Y-%m-%d %H:%M:%S")}')
         print(
             f'{self.data.name} started. {len(self.data.questions)} questions. Good luck!',
             end='\n\n---------------------------------------------\n\n'
@@ -42,6 +45,7 @@ class Examiner:
                 answer_number = input('Enter your answer number: ')
             if question.answers[int(answer_number) - 1].is_correct:
                 self.score += 1
+                print('Correct!')
             else:
                 wrong_question = {
                     'question': question,
@@ -52,3 +56,5 @@ class Examiner:
                         wrong_question['correct'] = answer
                         break
                 self.wrong_questions.append(wrong_question)
+                print('Wrong.')
+        print(f'Exam duration: {str(datetime.now() - start_date)[:-7]}')
