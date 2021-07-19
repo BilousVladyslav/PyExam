@@ -17,6 +17,7 @@ class Examiner:
         print(f'{number}. {question.message}', end='\n\n')
         for index, answer in enumerate(question.answers):
             print(f'    {index + 1}).  {answer.message}')
+        print()
 
     def total(self):
         print(f'\n----------------------------\n {self.score}/{len(self.data.questions)}')
@@ -30,7 +31,10 @@ class Examiner:
                 print(f'    Your: {item["answered"].message}', end='\n\n')
 
     def start(self):
-        print(f'{self.data.name} started. Good luck!', end='\n---------------------------------------------\n')
+        print(
+            f'{self.data.name} started. {len(self.data.questions)} questions. Good luck!',
+            end='\n\n---------------------------------------------\n\n'
+        )
         for index, question in enumerate(self.data.questions):
             self.print_question(question, index + 1)
             answer_number = 0
