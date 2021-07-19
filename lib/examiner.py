@@ -51,10 +51,11 @@ class Examiner:
                     'question': question,
                     'answered': question.answers[int(answer_number) - 1],
                 }
-                for answer in question.answers:
+                for answer_index, answer in enumerate(question.answers):
                     if answer.is_correct:
                         wrong_question['correct'] = answer
+                        print(f'Wrong. Should be {answer_index + 1}')
                         break
                 self.wrong_questions.append(wrong_question)
-                print('Wrong.')
+
         print(f'Exam duration: {str(datetime.now() - start_date)[:-7]}')
