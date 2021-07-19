@@ -1,4 +1,4 @@
-#To run exam, enter code bellow
+# To run exam, enter code bellow
 
 ```
 python main.py
