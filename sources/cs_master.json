@@ -1,0 +1,1885 @@
+{
+  "name": "Computer science. Masters degree exam 2020",
+  "questions": [
+    {
+      "message": "Якщо пам'ять (у програмі на С++) виділена за допомогою операції new, то звільнити її можна за допомогою:",
+      "answers": [
+        {"message": "delete", "is_correct": true},
+        {"message": "free", "is_correct": false},
+        {"message": "destructor", "is_correct": false},
+        {"message": "end", "is_correct": false},
+        {"message": "end use", "is_correct": false}
+      ]
+    },
+    {
+      "message": "В C++ тип даних short описує цілу змінну в діапазоні",
+      "answers": [
+        {"message": "[-32768; 32767]", "is_correct": true},
+        {"message": "[-128; 127]", "is_correct": false},
+        {"message": "[0; 255]", "is_correct": false},
+        {"message": "[0; 65535]", "is_correct": false},
+        {"message": "[0; 65536]", "is_correct": false}
+      ]
+    },
+    {
+      "message": "В C++ тип даних «структура» оголошується за допомогою ключового слова:",
+      "answers": [
+        {"message": "struct", "is_correct": true},
+        {"message": "structure", "is_correct": false},
+        {"message": "union", "is_correct": false},
+        {"message": "record", "is_correct": false},
+        {"message": "array", "is_correct": false}
+      ]
+    },
+    {
+      "message": "У С++ при передачі багатовимірного масиву у функцію в її заголовку слід вказати кількість елементів:",
+      "answers": [
+        {"message": "по всіх розмірностях", "is_correct": false},
+        {"message": "по всіх розмірностях, крім першої", "is_correct": false},
+        {"message": "по всіх розмірностях, крім, можливо, останньої", "is_correct": false},
+        {"message": "по всіх розмірностях, крім, можливо, першої", "is_correct": true},
+        {"message": "по всіх розмірностях, крім останньої", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Операції префіксного інкремента і декремента мають пріоритет:",
+      "answers": [
+        {"message": "вище всіх арифметичних операцій", "is_correct": true},
+        {"message": "нижче пріоритету операцій множення/ділення, але вище операцій додавання/вирахування", "is_correct": false},
+        {"message": "який дорівнює пріоритету операцій множення/ділення", "is_correct": false},
+        {"message": "який дорівнює пріоритету операцій додавання/вирахування", "is_correct": false},
+        {"message": "нижче всіх арифметичних операцій", "is_correct": false}
+      ]
+    },
+    {
+      "message": "У С++ розмір масиву може задаватися:",
+      "answers": [
+        {"message": "числовою константою, іменованою константою або виразом, що складається з констант", "is_correct": true},
+        {"message": "числовою або іменованою константою; вирази неприпустимі", "is_correct": false},
+        {"message": "тільки числовою константою", "is_correct": false},
+        {"message": "числовою константою або змінною", "is_correct": false},
+        {"message": "числовою або іменованою константою, цілою змінною, або виразом з них", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Скорочені операції присвоювання мають пріоритет:",
+      "answers": [
+        {"message": "який дорівнює пріоритету операції присвоювання", "is_correct": true},
+        {"message": "на рівень нижче пріоритету операції присвоювання", "is_correct": false},
+        {"message": "на рівень вище пріоритету операції присвоювання", "is_correct": false},
+        {"message": "який дорівнює пріоритету базової операції", "is_correct": false},
+        {"message": "на рівень нижче пріоритету базової операції", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке локальні, або стекові, змінні?",
+      "answers": [
+        {"message": "Це змінні, що описані усередині функції, або блоку програми. Пам'ять для таких змінних виділяється в апаратному стеку в момент входу у функцію або блок і звільняється в момент виходу з функції або блока.", "is_correct": true},
+        {"message": "Це змінні, в описі яких присутнє слово static.", "is_correct": false},
+        {"message": "Це змінні, визначені поза функціями, в описі яких відсутнє слово static.", "is_correct": false},
+        {"message": "Це змінні, пам'ять під які виділяється ще до початку роботи програми, на стадії компіляції.", "is_correct": false},
+        {"message": "Це змінні, в описі яких присутнє слово const.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "В мові С++ з покажчиками не можна виконувати наступну дію:",
+      "answers": [
+        {"message": "додавання двох покажчиків.", "is_correct": true},
+        {"message": "додавання покажчика і цілого числа.", "is_correct": false},
+        {"message": "збільшення або зменшення змінної типу покажчик.", "is_correct": false},
+        {"message": "вирахування від покажчика цілого числа.", "is_correct": false},
+        {"message": "вирахування двох покажчиків.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке тип даних структура?",
+      "answers": [
+        {"message": "Це конструкція, що дозволяє об'єднати декілька змінних з різними типами та іменами в один складовий об'єкт. Вона дозволяє будувати нові типи даних і визначається за допомогою ключового слова struct.", "is_correct": true},
+        {"message": "Це конструкція, що зберігає інформацію про ім'я, типи значень, що повертаються, кількість і типи її аргументів.", "is_correct": false},
+        {"message": "Це конструкція, що визначається за допомогою ключового слова typedef.", "is_correct": false},
+        {"message": "Це конструкція, що визначається за допомогою ключового слова enum.", "is_correct": false},
+        {"message": "Це конструкція, що визначається за допомогою ключового слова define.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Текстові рядки зберігаються в мові С++ за допомогою:",
+      "answers": [
+        {"message": "масивів типу даних char.", "is_correct": true},
+        {"message": "змінних типу даних char.", "is_correct": false},
+        {"message": "змінних типу даних bool.", "is_correct": false},
+        {"message": "масивів типу даних float.", "is_correct": false},
+        {"message": "змінних типу даних int.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Для пошуку в текстовому рядку s1, текстового рядка s2 можна використати функцію:",
+      "answers": [
+        {"message": "char *strstr(const char *s1, const char *s2);", "is_correct": true},
+        {"message": "int strcmp(const char *s1, const char *s2); ", "is_correct": false},
+        {"message": "int strncmp(const char *s1, const char *s2, size_t maxlen)", "is_correct": false},
+        {"message": "int memcmp(const void * s1, const void * s2, size_t len)", "is_correct": false},
+        {"message": "char *strcpy(char * s1, const char * s2)", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Структура даних типу  черга це:",
+      "answers": [
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна тільки в кінець черги, забирати елементи можна тільки з початку, із середини черги вилучати елементи не можна.", "is_correct": true},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна тільки в початок черги, забирати елементи можна тільки з кінця, із середини черги вилучати елементи не можна.", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна і в початок черги і в кінець, забирати елементи можна тільки з кінця черги.", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи та забирати існуючі можна лише з початку черги.", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи та забирати існуючі можна лише в кінці черги.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Структура даних типу  стек це:",
+      "answers": [
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи та забирати існуючі можна лише в кінці стеку, із середини стеку вилучати елементи не можна.", "is_correct": true},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна тільки в кінець стеку, забирати елементи можна тільки з початку, із середини стеку вилучати елементи не можна.", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна тільки в початок стеку, забирати елементи можна тільки з кінця, із середини стеку вилучати елементи не можна.", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи можна і в початок стеку і в кінець, забирати елементи можна тільки з кінця стеку", "is_correct": false},
+        {"message": "структура даних що має початок і кінець. Додавати нові елементи та забирати існуючі можна лише з початку стеку.", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Чому дорівнює результат операції x%y, якщо x=-15, y=4",
+      "answers": [
+        {"message": "-3", "is_correct": true},
+        {"message": "Не визначений", "is_correct": false},
+        {"message": "3", "is_correct": false},
+        {"message": "1", "is_correct": false},
+        {"message": "-1", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Оператор x = a + b ? c : d; еквівалентний наступному коду:",
+      "answers": [
+        {"message": "if((a+b)!=0) x=c; else x=d;", "is_correct": true},
+        {"message": "if(b!=c) x=a+d;", "is_correct": false},
+        {"message": "if(b= =c) x=a+d;", "is_correct": false},
+        {"message": "if((a+b)!=(c:d)) x=true; else x=false;", "is_correct": false},
+        {"message": "if((a+b)= =(c:d)) x=true; else x=false;", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Чому дорівнюють змінні після виклику функції\nint x=5, y=3, z;\nz=fun(x,y);\nякщо функція має вигляд int fun(int x, int& y) { return x--*++y; }\n",
+      "answers": [
+        {"message": "x=5, y=4, z=20", "is_correct": true},
+        {"message": "x=4, y=4, z=20", "is_correct": false},
+        {"message": "x=5, y=3, z=16", "is_correct": false},
+        {"message": "x=4, y=4, z=20", "is_correct": false},
+        {"message": "x=5, y=4, z=16", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Визначте що робить наступна програма:\n\nint mas [ ] = {8,5,7,9,3,4,7,1};\n int buf;\n for(int i = 0; i < 7; i++)\n {\n   if(mas [i] > mas [i+1])\n   {\n    buf = mas [i];\n    mas [i] = mas [i+1];\n    mas [i+1] = buf;\n   }\n }\n",
+      "answers": [
+        {"message": "знаходить максимальній елемент в масиві і ставить його в кінець масиву.", "is_correct": true},
+        {"message": "знаходить мінімальній елемент в масиві і ставить його в кінець масиву.", "is_correct": false},
+        {"message": "знаходить максимальній елемент в масиві і ставить його на початок масиву.", "is_correct": false},
+        {"message": "сортирує масив за зменшенням елементів.", "is_correct": false},
+        {"message": "сортирує масив за зростанням елементів.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Результатом робити наступної програми є рядок:\n\nchar str [ ] = \"this is test string\";\n for(int i = 0; i < strlen(str); i++)\n {\n   if(str [i] == ' ' || str [i] == '\\t')\n   {\n     str [i] = '_';\n   }\n }\n cout << str;\n",
+      "answers": [
+        {"message": "\"this_is_test_string\".", "is_correct": true},
+        {"message": "\"_his_is__es__s_ring\".", "is_correct": false},
+        {"message": "\"_his is _es_ s_ring\".", "is_correct": false},
+        {"message": "\"thisisteststring\".", "is_correct": false},
+        {"message": "\"this is test string\".", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Визначте що робить наступна програма:\n\nint mas [ ] = {-8,5,-7,9,3,4,-7,1};\nint n = 3;\n for(int i = 0; i < 8; i++)\n {\n   if(mas [i] % n == 0 && mas [i] > 0)\n   {\n    mas [i]++;\n   }\n }\n",
+      "answers": [
+        {"message": "збільшує всі позитивні, та кратні 3 числа масиву mas на одиницю.", "is_correct": true},
+        {"message": "збільшує всі позитивні числа масиву mas на одиницю.", "is_correct": false},
+        {"message": "збільшує індекс (і) масиву mas на одиницю, якщо число, що знаходиться в масиві за цим індексом позитивне.", "is_correct": false},
+        {"message": "збільшує індекс (і) масиву mas на одиницю, якщо число, що знаходиться в масиві за цим індексом позитивне, та кратне 3.", "is_correct": false},
+        {"message": "збільшує всі числа масиву mas кратні 3 на одиницю.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Визначте що робить наступна програма:\n\nint mas [ ] = {8,5,7,9,3,4,7,1,5};\n int s = -1, e = sizeof(mas) / sizeof(int);\n int buf;\n while(++s < --e)\n {\n    buf = mas [s];\n    mas [s] = mas [e];\n    mas [e] = buf;\n }\n",
+      "answers": [
+        {"message": "міняє в зворотньому порядку місцями елементи масиву mas.", "is_correct": true},
+        {"message": "знаходить максимальний елемент в масиві і ставить його в кінець масиву", "is_correct": false},
+        {"message": "сортирує масив за зменшенням елементів.", "is_correct": false},
+        {"message": "сортирує масив за зростанням елементів.", "is_correct": false},
+        {"message": "знаходить мінімальній елемент в масиві і ставить його на початок масиву.", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Яке співвідношення не є властивістю функції розподілу F(х)?",
+      "answers": [
+        {"message": "F(0) = 0.5.", "is_correct": true},
+        {"message": "F(+беск.) = 1.", "is_correct": false},
+        {"message": "F(-беск.) = 0.", "is_correct": false},
+        {"message": "P(XЄ [a,b]) = F(b) – F(a).", "is_correct": false},
+        {"message": "При x2 > x1 , F(x2) >= F(x1).", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Дисперсія випадкової величини - числова величина, що характеризує ступінь розсіювання значень випадкової величини навколо ...",
+      "answers": [
+        {"message": "свого математичного сподівання.", "is_correct": true},
+        {"message": "свого найбільш імовірного значення.", "is_correct": false},
+        {"message": "своєї медіани.", "is_correct": false},
+        {"message": "своєї моди.", "is_correct": false},
+        {"message": "свого деякого, наперед заданого, значення.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Функція розподілу випадкової величини - це ймовірність того, що випадкова величина прийме значення, яке ...",
+      "answers": [
+        {"message": "менше, ніж задане значення x.", "is_correct": true},
+        {"message": "менше 1.", "is_correct": false},
+        {"message": "більше, ніж задане значення x.", "is_correct": false},
+        {"message": "дорівнює заданому x.", "is_correct": false},
+        {"message": "не дорівнює заданому x.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Яке співвідношення щодо ймовірності добутку подій є завжди вірним?",
+      "answers": [
+        {"message": "Р(АВ) = Р(А)Р(В/А).", "is_correct": true},
+        {"message": "Р(АВ) = Р(А)Р(В).", "is_correct": false},
+        {"message": "Р(АВ) = Р(А/В)Р(В/А).", "is_correct": false},
+        {"message": "Р(АВ) = Р(А) + Р(В) - Р(АВ).", "is_correct": false},
+        {"message": "Р(АВ) = Р(А) + Р(В).", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Яке твердження щодо про протилежних події НЕ є вірним?",
+      "answers": [
+        {"message": "Вони можуть наступати одночасно.", "is_correct": true},
+        {"message": "Вони утворюють повну групу.", "is_correct": false},
+        {"message": "Сума їх ймовірностей дорівнює одиниці.", "is_correct": false},
+        {"message": "Вони несумісні.", "is_correct": false},
+        {"message": "Ймовірності їх настання не обов'язково однакові.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Подія С є сумою двох сумісних подій А і B, якщо С настає тоді, коли ...",
+      "answers": [
+        {"message": "настає або подія А, або подія В, або обидві події А та В одночасно.", "is_correct": true},
+        {"message": "настає або подія А, або подія В, але події А і В не настають одночасно.", "is_correct": false},
+        {"message": "події А і В наступають одночасно.", "is_correct": false},
+        {"message": "події А і В або наступають одночасно, або не наступають одночасно.", "is_correct": false},
+        {"message": "А і В є незалежними подіями.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Кілька подій в певному досліді утворюють повну групу, якщо в результаті досліду ...",
+      "answers": [
+        {"message": "має обов’язково з'явитися одна з них.", "is_correct": true},
+        {"message": "не має з'явитися жодна з них.", "is_correct": false},
+        {"message": "мають з'явитися всі події.", "is_correct": false},
+        {"message": "мають з'явитися мінімум дві з них.", "is_correct": false},
+        {"message": "має з'явитися якась інша подія.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "З якого інтервалу може приймати значення ймовірність деякої події?",
+      "answers": [
+        {"message": "[0,1]", "is_correct": true},
+        {"message": "]0,1]", "is_correct": false},
+        {"message": "]0,1[", "is_correct": false},
+        {"message": "[0,1[", "is_correct": false},
+        {"message": "З будь-якого.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Генеральною сукупністю називається ...",
+      "answers": [
+        {"message": "сукупність усіх значень деякої ознаки.", "is_correct": true},
+        {"message": "сукупність випадково відібраних значень деякої ознаки.", "is_correct": false},
+        {"message": "сукупність цілеспрямовано відібраних значень деякої ознаки.", "is_correct": false},
+        {"message": "інтервал, в який потрапляють значення деякої ознаки.", "is_correct": false},
+        {"message": "найбільш типові значення деякої ознаки.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Вибірка називається репрезентативною, якщо...",
+      "answers": [
+        {"message": "вона правильно подає пропорції генеральної сукупності.", "is_correct": true},
+        {"message": "її елементи впорядковані за зростанням.", "is_correct": false},
+        {"message": "її елементи впорядковані за зменшенням", "is_correct": false},
+        {"message": "кожна її варіанта має однакову частоту.", "is_correct": false},
+        {"message": "вона подана у вигляді статистичного ряду.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Середнє арифметичне значень елементів вибірки є оцінкою ...",
+      "answers": [
+        {"message": "математичного сподівання.", "is_correct": true},
+        {"message": "дисперсії.", "is_correct": false},
+        {"message": "середньоквадратичного відхилення.", "is_correct": false},
+        {"message": "моди.", "is_correct": false},
+        {"message": "медіани.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "При збільшенні довірчої ймовірності довірчий інтервал ...",
+      "answers": [
+        {"message": "збільшується.", "is_correct": true},
+        {"message": "подвоюється.", "is_correct": false},
+        {"message": "зменшується.", "is_correct": false},
+        {"message": "залишається незмінним.", "is_correct": false},
+        {"message": "зміщується щодо центру координат.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що НЕ має відношення до завдань математичної статистики?",
+      "answers": [
+        {"message": "Перевірка статистичної гіпотези про виникнення життя на Землі.", "is_correct": true},
+        {"message": "Точкові та інтервальні оцінки параметрів розподілу.", "is_correct": false},
+        {"message": "Оцінка невідомої ймовірності випадкової події.", "is_correct": false},
+        {"message": "Перевірка статистичних гіпотез про параметри відомого розподілу.", "is_correct": false},
+        {"message": "Перевірка статистичних гіпотез про вид невідомого розподілу.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Сума великого числа випадкових величин, що мають рівномірний розподіл, буде мати ...",
+      "answers": [
+        {"message": "нормальний розподіл.", "is_correct": true},
+        {"message": "рівномірний розподіл.", "is_correct": false},
+        {"message": "прямолінійний розподіл.", "is_correct": false},
+        {"message": "прийнятний розподіл.", "is_correct": false},
+        {"message": "відмінний розподіл", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Яка з подій найбільш ймовірна при киданні гральної кістки:",
+      "answers": [
+        {"message": "Поява будь-якої грані, крім 6.", "is_correct": true},
+        {"message": "Поява будь-якого парного числа очок.", "is_correct": false},
+        {"message": "Поява будь-якого непарного числа очок.", "is_correct": false},
+        {"message": "Поява будь-якої грані, крім 6 та 5.", "is_correct": false},
+        {"message": "Поява 6 очок.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "У ящику лежать 10 чорних шкарпеток і 6 зелених, всі одного розміру. Ви, не дивлячись, витягли 3 шкарпетки. Яка ймовірність того, що утворилася хоча б одна пара однакового кольору?",
+      "answers": [
+        {"message": "16/16.", "is_correct": true},
+        {"message": "8/16.", "is_correct": false},
+        {"message": "12/16.", "is_correct": false},
+        {"message": "0/16.", "is_correct": false},
+        {"message": "4/16.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Визначити ймовірність того, що при киданні гральної кістки випаде 4 або непарне число очок.",
+      "answers": [
+        {"message": "2/3.", "is_correct": true},
+        {"message": "3/4.", "is_correct": false},
+        {"message": "2/6.", "is_correct": false},
+        {"message": "1/2.", "is_correct": false},
+        {"message": "1/4.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Визначити, який дослід з випадковим результатом здійснюється в даній задачі: кинуто дві гральні кістки. Знайти ймовірність того, що на грані хоча б однієї з кісток з'явиться шістка.",
+      "answers": [
+        {"message": "Кидання двох кісток.", "is_correct": true},
+        {"message": "Кидання кісток, при якому сума очок, які випали, буде парна.", "is_correct": false},
+        {"message": "Кидання кісток, при якому з'явиться шістка.", "is_correct": false},
+        {"message": "Кидання кісток, при якому очки на кожній кістці будуть парні.", "is_correct": false},
+        {"message": "Кидання однієї кістки.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Кинуто дві гральні кістки. Знайти ймовірність того, що сума очок, які випали, буде парною.",
+      "answers": [
+        {"message": "2/4.", "is_correct": true},
+        {"message": "1/4.", "is_correct": false},
+        {"message": "3/4.", "is_correct": false},
+        {"message": "2/3.", "is_correct": false},
+        {"message": "1/3.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Є дві урни. В одній урні 6 чорних та 4 білих кулі, в іншій - 4 чорних і 2 білих. Який вираз дозволить обчислити ймовірність того, що куля, вийнята з випадково відібраної урни, виявиться білою?",
+      "answers": [
+        {"message": "(1/2)*(2/5) + (1/2)*(1/3).", "is_correct": true},
+        {"message": "(2/5) + (1/3).", "is_correct": false},
+        {"message": "(2/5) + (1/3) - (2/5)*(1/3).", "is_correct": false},
+        {"message": "(2/5)*(1/3).", "is_correct": false},
+        {"message": "1 - (2/5)*(1/3).", "is_correct": false}
+      ]
+    },
+    {
+      "message": "В урні 6 чорних та 4 білих кулі. З урни вийняли кулю та, не дивлячись на неї, відклали в сторону. Чому дорівнює ймовірність того, що друга куля, вийнята з урни, виявиться чорною?",
+      "answers": [
+        {"message": "6/10.", "is_correct": true},
+        {"message": "5/10.", "is_correct": false},
+        {"message": "6/9.", "is_correct": false},
+        {"message": "5/9.", "is_correct": false},
+        {"message": "4/9.", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Що розуміється  під терміном WAN?",
+      "answers": [
+        {"message": "архітектура глобальних і регіональних мереж", "is_correct": true},
+        {"message": "найменування системного інтерфейсу", "is_correct": false},
+        {"message": "архітектура проектування комп’ютерної мережі", "is_correct": false},
+        {"message": "протокол передачі пакетів в мережі", "is_correct": false},
+        {"message": "найменування фірми розробника відомих комутаторів для комп’ютерної мережі", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке OSI?",
+      "answers": [
+        {"message": "найменування моделі взаємодії у мережі", "is_correct": true},
+        {"message": "найменування системного інтерфейсу", "is_correct": false},
+        {"message": "найменування організації, розробника стандарту", "is_correct": false},
+        {"message": "найменування протоколу взаємодії  у мережі", "is_correct": false},
+        {"message": "найменування операційної системи ", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке «кадр»,  як термін у комп’ютерній мережі ?",
+      "answers": [
+        {"message": "логічна структура даних на 2  рівні протоколів", "is_correct": true},
+        {"message": "набор програм  у мережі", "is_correct": false},
+        {"message": "логічна структура даних на 3  рівні протоколів", "is_correct": false},
+        {"message": "логічна структура даних на 6  рівні протоколів", "is_correct": false},
+        {"message": "фрагмент відеопотоку  IPTV", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке маршрутизатор комп’ютерної мережі",
+      "answers": [
+        {"message": "пристрій перенаправлення пакетів між інтерфейсами", "is_correct": true},
+        {"message": "набор перемикачів телекомунікаційних каналів ", "is_correct": false},
+        {"message": "набор вузлових станцій обробки кадрів", "is_correct": false},
+        {"message": "стековий комплект вузлового обладнання на основі комутаторів", "is_correct": false},
+        {"message": "пристрій перенаправлення кадрів між портами", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке комутатор комп’ютерної мережі, який управляється?",
+      "answers": [
+        {"message": "пристрій перенаправлення кадрів між портами", "is_correct": true},
+        {"message": "регістратор  та посилювач радіосигналу", "is_correct": false},
+        {"message": "окремий сервер  повідомлень", "is_correct": false},
+        {"message": "пристрій перемикання пакетів між портами", "is_correct": false},
+        {"message": "пристрій  відновлення пакетів", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Кабельна система — це:",
+      "answers": [
+        {"message": "система, складовими якої є кабелі та компоненти, які з’єднані с кабелем;", "is_correct": true},
+        {"message": "система, яка виконує роль транспортного коридору для передачі мультимедійного трафіку;", "is_correct": false},
+        {"message": "система передачі та обробки інформації;", "is_correct": false},
+        {"message": "сукупність систем для передачі, обробки, зберігання інформації.", "is_correct": false},
+        {"message": "сукупність систем підтримки електричного струму комп’ютерної мережі", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Що таке  FTP ?",
+      "answers": [
+        {"message": "служба файлового обміну;", "is_correct": true},
+        {"message": "протокол транспортного рівня;", "is_correct": false},
+        {"message": "протокол мережного рівня;", "is_correct": false},
+        {"message": "сервер передачі повідомлень;", "is_correct": false},
+        {"message": "сервер аутентифікації.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Які з наведених технологій відносяться до мультиплексійних:",
+      "answers": [
+        {"message": "FDM, TDM, WDM", "is_correct": true},
+        {"message": "WDDM, CWDM, DWDM, ATM;", "is_correct": false},
+        {"message": "FTTH, Wi Fi, Wi Max;", "is_correct": false},
+        {"message": "FTP, TFTP, MMC.", "is_correct": false},
+        {"message": "DIM, CIM, COM, DCOM", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Який метод доступу використовується Ethernet:",
+      "answers": [
+        {"message": "CSMA/CD; ", "is_correct": true},
+        {"message": "Token Bus; ", "is_correct": false},
+        {"message": "Token Ring;", "is_correct": false},
+        {"message": "Autonegotiation;", "is_correct": false},
+        {"message": "Collision Detect;", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Протоколи маршрутизації:",
+      "answers": [
+        {"message": "RIP, OSPF, IGRP;", "is_correct": true},
+        {"message": "FTP, HTTP, HTTPS;", "is_correct": false},
+        {"message": "ICMP, SMTP, P2P.", "is_correct": false},
+        {"message": "ARP,DNS, WINS.", "is_correct": false},
+        {"message": "SNMP, PPTP, L2TP.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "До протоколів дозволу символьних імен Інтернет (типу www.kture.kharkov.ua) і IP відносяться: ",
+      "answers": [
+        {"message": "DNS", "is_correct": true},
+        {"message": "ARP", "is_correct": false},
+        {"message": "ICMP", "is_correct": false},
+        {"message": "WINS", "is_correct": false},
+        {"message": "DHCP", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Wi-FI це",
+      "answers": [
+        {"message": "безпровідний доступ IEEE802.11", "is_correct": true},
+        {"message": "безпровідний доступ IEEE802.16", "is_correct": false},
+        {"message": "безпровідний доступ IEEE802.15", "is_correct": false},
+        {"message": "безпровідний доступ з маршрутизацією", "is_correct": false},
+        {"message": "безпровідний доступ з комутацією каналів", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Який кабель рекомендовано до   використання у технології  1GBase-LX",
+      "answers": [
+        {"message": "Fibro Single Mode", "is_correct": true},
+        {"message": "UTP cat 5", "is_correct": false},
+        {"message": "UTP cat 5e", "is_correct": false},
+        {"message": "S\\UTP cat 6", "is_correct": false},
+        {"message": "Fibro Multi Mode", "is_correct": false}
+      ]
+    },
+    {
+      "message": "У чому відмінність кабелю UTP cat3  и cat5?",
+      "answers": [
+        {"message": "гарантована смуга частот", "is_correct": true},
+        {"message": "у діаметрі", "is_correct": false},
+        {"message": "у кількості кручених пар", "is_correct": false},
+        {"message": "у типі матеріалу (мідь чи алюміній)", "is_correct": false},
+        {"message": "у наявності екрану", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Припустимою адресою MAC є :",
+      "answers": [
+        {"message": "00:01:A0:11:35:17;", "is_correct": true},
+        {"message": "121.11.11.01;", "is_correct": false},
+        {"message": "A0:11:35:17;", "is_correct": false},
+        {"message": "00:01:L0:11:K1:17;", "is_correct": false},
+        {"message": "10.0.1.1;", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Припустимою адресою IP є :",
+      "answers": [
+        {"message": "121.11.11.01;", "is_correct": true},
+        {"message": "00:01:A0:11:35:17;", "is_correct": false},
+        {"message": "A0:11:35:17;", "is_correct": false},
+        {"message": "00:01:A0:11:K1:17;", "is_correct": false},
+        {"message": "10.257.1.1;", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Внутрішню (Інтранет) мережу можна будувати в адресному просторі:",
+      "answers": [
+        {"message": "10.х.х.х;", "is_correct": true},
+        {"message": "192.11.х.х;", "is_correct": false},
+        {"message": "172.х.х.х;", "is_correct": false},
+        {"message": "127.0.х.х;", "is_correct": false},
+        {"message": "221.0.0.х;", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Зміна продуктивності може бути обумовлена",
+      "answers": [
+        {"message": "зміною розміру кадру", "is_correct": true},
+        {"message": "зміною розміру файлів", "is_correct": false},
+        {"message": "зміною TTL", "is_correct": false},
+        {"message": "зміною Time-out", "is_correct": false},
+        {"message": "зміною PPTP", "is_correct": false}
+      ]
+    },
+
+    {
+      "message": "Знайдіть вірне твердження:",
+      "answers": [
+        {"message": "Порожньою зветься множина, що складається з усіх елементів, які дорівнюють нулю", "is_correct": false},
+        {"message": "Об’єднанням зветься число всіх елементів в скінченній множині", "is_correct": false},
+        {"message": "Будь-яка множина є підмножиною самої себе", "is_correct": true},
+        {"message": "Потужністю зветься число однакових елементів в множині", "is_correct": false},
+        {"message": "(1, 2, 3)=(3, 2, 1)", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Чому дорівнює потужність булеана множини А?",
+      "answers": [
+        {"message": "A^(|A| - 1)", "is_correct": false},
+        {"message": "2^|A|", "is_correct": true},
+        {"message": "|A|^2", "is_correct": false},
+        {"message": "2^A", "is_correct": false},
+        {"message": "2|A|", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Яке відношення задається висловлюванням « менше ніж  , або дорівнює   на множині натуральних чисел»?",
+      "answers": [
+        {"message": "Відношення часткового порядку.", "is_correct": true},
+        {"message": "Відношення строгого порядку.", "is_correct": false},
+        {"message": "Відношення толерантності.", "is_correct": false},
+        {"message": "Відношення еквівалентності.", "is_correct": false},
+        {"message": "Відношення лінійного порядку.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Декартів добуток двох множин А і В це:",
+      "answers": [
+        {"message": "добуток елементів цих множин;", "is_correct": true},
+        {"message": "А, Б і Г", "is_correct": false},
+        {"message": "А і В", "is_correct": false},
+        {"message": "А, В і Г", "is_correct": false},
+        {"message": "А і Г", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Скільки рядків (інтерпретацій) в таблиці, яка задає логічну функцію n змінних?",
+      "answers": [
+        {"message": "n рядків", "is_correct": false},
+        {"message": "2^n рядків", "is_correct": true},
+        {"message": "2^(2^n) рядків", "is_correct": false},
+        {"message": "n^(2n) рядків", "is_correct": false},
+        {"message": "2n рядків", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Досконала диз’юнктивна нормальна форма - це:",
+      "answers": [
+        {"message": "кон’юнкція деякого числа конституент 0;", "is_correct": true},
+        {"message": "диз’юнкція деякого числа конституент 1;", "is_correct": false},
+        {"message": "диз’юнкція деякого числа елементарних  кон’юнкцій;", "is_correct": false},
+        {"message": "диз’юнкція деякого числа конституент 0;", "is_correct": false},
+        {"message": "формула Х в У", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Вказати елементарні функції, що використовуються в алгебрі Жегалкіна: \n1) кон’юнкція;\n 2) диз’юнкція;\n 3) константа 1;\n 4) константа 0; \n5) додавання за модулем два;\n 6) заперечення.",
+      "answers": [
+        {"message": "2); 3); 5.", "is_correct": false},
+        {"message": "1); 3); 5).", "is_correct": true},
+        {"message": "4); 3); 5).", "is_correct": false},
+        {"message": "3); 6); 5).", "is_correct": false},
+        {"message": "1); 2); 3); 4); 5).", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Висловлення - це:",
+      "answers": [
+        {"message": "істинне оповідальне речення;", "is_correct": false},
+        {"message": "будь-яке речення;", "is_correct": false},
+        {"message": "оповідальне речення, яке приймає або істинне, або хибне значення, але не те й інше одночасно;", "is_correct": true},
+        {"message": "речення, що не має сенсу;", "is_correct": false},
+        {"message": "наказове речення.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "В алгебрі висловлень формула зветься тотожно хибною (суперечливою), якщо:",
+      "answers": [
+        {"message": "формула істинна при довільній інтерпретації;", "is_correct": false},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює нулю;", "is_correct": false},
+        {"message": "формула хибна на будь-якій інтерпретації;", "is_correct": true},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює одиниці;", "is_correct": false},
+        {"message": "формула зберігає нуль на нульовому наборі.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Які з наведених формул відповідають закону де Моргана для кванторів?",
+      "answers": [
+        {"message": "формула істинна при довільній інтерпретації;", "is_correct": false},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює нулю;", "is_correct": false},
+        {"message": "формула хибна на будь-якій інтерпретації;", "is_correct": true},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює одиниці;", "is_correct": false},
+        {"message": "формула зберігає нуль на нульовому наборі.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Дайте визначення n-місному предикату в предметній області D.",
+      "answers": [
+        {"message": "Двозначна функція від n аргументів, що приймають значення у довільній підмножині множини D.", "is_correct": true},
+        {"message": "Однозначна функція, що приймає усі можливі значення в множині D.", "is_correct": false},
+        {"message": "Функція n + 1 аргументів, що має аргументом множину D.", "is_correct": false},
+        {"message": "n-значна функція, що приймає значення у довільній множині D.", "is_correct": false},
+        {"message": "Немає правильної відповіді.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Чому дорівнює число всіляких наборів з n різних елементів по r , якщо в кожному наборі однакові елементи можуть повторюватися та має значення порядок розміщення елементів?",
+      "answers": [
+        {"message": "формула істинна при довільній інтерпретації; ", "is_correct": false},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює нулю;", "is_correct": false},
+        {"message": "формула хибна на будь-якій інтерпретації;", "is_correct": true},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює одиниці;", "is_correct": false},
+        {"message": "формула зберігає нуль на нульовому наборі.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "За якою формулою обчислюється кількість сполучень з k елементів без повторень з n елементів множини:",
+      "answers": [
+        {"message": "формула істинна при довільній інтерпретації;", "is_correct": false},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює нулю;", "is_correct": false},
+        {"message": "формула хибна на будь-якій інтерпретації;", "is_correct": true},
+        {"message": "хоча б одне із значень таблиці істинності дорівнює одиниці;", "is_correct": false},
+        {"message": "формула зберігає нуль на нульовому наборі.", "is_correct": false}
+      ]
+    },
+    {
+      "message": "Маршрут у графі - це:",
+      "answers": [
+        {
+          "message": "простий ланцюг, у якого усі вершини різні;",
+          "is_correct": false
+        },
+        {
+          "message": "чергуюча послідовність вершин та ребер, яка має таку властивість, що будь-яка пара сусідніх елементів інцидентна;",
+          "is_correct": true
+        },
+        {
+          "message": "шлях, у якого початкова і кінцева вершини співпадають;",
+          "is_correct": false
+        },
+        {
+          "message": "ланцюг, що містить усі ребра графа з точністю одного разу;",
+          "is_correct": false
+        },
+        {
+          "message": "вірної відповіді немає.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Сума локальних ступенів вершин графа дорівнює:",
+      "answers": [
+        {
+          "message": "числу його ребер;",
+          "is_correct": false
+        },
+        {
+          "message": "числу ребер мінус число вершин;",
+          "is_correct": false
+        },
+        {
+          "message": "подвоєному числу ребер;",
+          "is_correct": true
+        },
+        {
+          "message": "числу вершин;",
+          "is_correct": false
+        },
+        {
+          "message": "подвоєному числу вершин.",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Яку кількість ребер містить дерево з N вершинами?",
+      "answers": [
+        {
+          "message": "N - 2",
+          "is_correct": false
+        },
+        {
+          "message": "N + 2",
+          "is_correct": false
+        },
+        {
+          "message": "N",
+          "is_correct": false
+        },
+        {
+          "message": "N + 1",
+          "is_correct": false
+        },
+        {
+          "message": "N - 1",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Нехай C – множина цілих чисел, а N – множина натуральних чисел. Який вираз вірний?",
+      "answers": [
+        {
+          "message": "N є С",
+          "is_correct": false
+        },
+        {
+          "message": "N с С",
+          "is_correct": true
+        },
+        {
+          "message": "N !є С",
+          "is_correct": false
+        },
+        {
+          "message": "N с_ С",
+          "is_correct": false
+        },
+        {
+          "message": "N = С",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Нехай задано А = {3,5,7} i B = {2,5,6}. Якою буде множина C = A U B",
+      "answers": [
+        {
+          "message": "C = {2,3,5,5,6,7}",
+          "is_correct": false
+        },
+        {
+          "message": "C = {5,10,13}",
+          "is_correct": false
+        },
+        {
+          "message": "C = {{2,3,5},{5,6,7}}",
+          "is_correct": false
+        },
+        {
+          "message": "C = {(2,3),(5,5),(6,7)}",
+          "is_correct": false
+        },
+        {
+          "message": "C = {2,3,5,6,7}",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Нехай задаються X = {1,2,3} i Y = {a,b,c}. Яке з наведених відношень є функцією?",
+      "answers": [
+        {
+          "message": "R = {(1,a),(1,b),(1,c)}",
+          "is_correct": false
+        },
+        {
+          "message": "R = {(1,a),(1,b),(1,c)(2,a),(2,b),(2,c)(3,a),(3,b),(3,c)}",
+          "is_correct": false
+        },
+        {
+          "message": "R = {(1,a),(2,b),(3,c)}",
+          "is_correct": true
+        },
+        {
+          "message": "R = {(a,1),(a,2),(a,3)}",
+          "is_correct": false
+        },
+        {
+          "message": "R = {(1,1,a),(1,2,b),(1,3,c)}",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Які функції є самодвоїстими: \n1) !x ;\n2) x V y;\n3) x ^ y ;\n4) 1;\n5) 0;\n6) x",
+      "answers": [
+        {
+          "message": "4), 5);",
+          "is_correct": false
+        },
+        {
+          "message": "1), 5), 6);",
+          "is_correct": false
+        },
+        {
+          "message": "2), 3);",
+          "is_correct": false
+        },
+        {
+          "message": "3), 4), 6);",
+          "is_correct": false
+        },
+        {
+          "message": "1), 6).",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Яке з наступних тверджень не є висловленням?",
+      "answers": [
+        {
+          "message": "«Скрізь дві точки можна провести одну пряму»",
+          "is_correct": false
+        },
+        {
+          "message": "«Зараз іде сніг?»",
+          "is_correct": true
+        },
+        {
+          "message": "«Два плюс два дорівнює чотирьом»",
+          "is_correct": false
+        },
+        {
+          "message": "«Мають місце прямокутні трикутники»",
+          "is_correct": false
+        },
+        {
+          "message": "Всі твердження є висловленнями",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Який з наведених предикатів є двомісним?",
+      "answers": [
+        {
+          "message": "«5 - просте число»",
+          "is_correct": false
+        },
+        {
+          "message": "« X ділиться на Y , але не ділиться на Z »",
+          "is_correct": false
+        },
+        {
+          "message": "« X не ділиться на 2»",
+          "is_correct": false
+        },
+        {
+          "message": "« X плюс Y дорівнює 0»",
+          "is_correct": true
+        },
+        {
+          "message": "«5 не ділиться на 2»",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Скільки різних перестановок можна утворити з літер слова «математика»?",
+      "answers": [
+        {"message": "C^6/5", "is_correct": false},
+        {"message": "C^5/(10+5-1)", "is_correct": false},
+        {"message": "A^6/10", "is_correct": false},
+        {"message": "10^6", "is_correct": false},
+        {"message": "P/10 (2, 3, 2, 1, 1, 1)", "is_correct": true}
+      ]
+    },
+    {
+      "message": "Чому дорівнює сума локальних ступенів повного графа на 5 вершинах?",
+      "answers": [
+        {
+          "message": "10",
+          "is_correct": false
+        },
+        {
+          "message": "15",
+          "is_correct": false
+        },
+        {
+          "message": "20",
+          "is_correct": true
+        },
+        {
+          "message": "5",
+          "is_correct": false
+        },
+        {
+          "message": "25",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Дати визначення терміну «Ключовий атрибут відношення»",
+      "answers": [
+        {
+          "message": "Атрибут, значення якого однозначно ідентифікують кортеж",
+          "is_correct": true
+        },
+        {
+          "message": "Атрибут, значення якого є атомарним",
+          "is_correct": false
+        },
+        {
+          "message": "Атрибут, значення якого дорівнює одиниці",
+          "is_correct": false
+        },
+        {
+          "message": "Атрибут, значення якого числового типу",
+          "is_correct": false
+        },
+        {
+          "message": "Атрибут, значення якого текстового типу",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Який зміст терміну нормалізація універсального відношення?",
+      "answers": [
+        {
+          "message": "Послідовний процес поділу універсального відношення на декілька більш простих, але взаємопов’язаних відношень",
+          "is_correct": true
+        },
+        {
+          "message": "Зменшення кількості записів в універсальному відношенні",
+          "is_correct": false
+        },
+        {
+          "message": "Видалення повторюваних атрибутів з відношення",
+          "is_correct": false
+        },
+        {
+          "message": "Послідовний процес поділу неатомарних значень всіх атрибутів відношення",
+          "is_correct": false
+        },
+        {
+          "message": "Послідовний процес видалення однакових відношень",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Які компоненти входять в структуру моделі «Сутність-зв’язок»?",
+      "answers": [
+        {
+          "message": "Сутності, зв'язки, атрибути",
+          "is_correct": true
+        },
+        {
+          "message": "Об'єкти, дуги, вершини",
+          "is_correct": false
+        },
+        {
+          "message": "Слоти, зв'язки, предикати",
+          "is_correct": false
+        },
+        {
+          "message": "Блоки, модулі, елементи",
+          "is_correct": false
+        },
+        {
+          "message": "Переходи, вершини, дуги",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Який тип операції реляційної алгебри представлено виразом: R1 x R2",
+      "answers": [
+        {
+          "message": "Різниця двох відношень R1 та R2",
+          "is_correct": false
+        },
+        {
+          "message": "Перейменування реляційних відношень R1 і R2",
+          "is_correct": false
+        },
+        {
+          "message": "Об'єднання відношень R1 зі R2",
+          "is_correct": false
+        },
+        {
+          "message": "Проекція відношення R1 на R2",
+          "is_correct": false
+        },
+        {
+          "message": "Декартів добуток відношень R1 і R2",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Який тип операції реляційної алгебри представлено виразом:   R1 U R2 ?",
+      "answers": [
+        {
+          "message": "Вибірка відношень R1 і R2",
+          "is_correct": false
+        },
+        {
+          "message": "Декартів добуток R1 і R2",
+          "is_correct": false
+        },
+        {
+          "message": "Декартова проекція R1 на R2",
+          "is_correct": false
+        },
+        {
+          "message": "Різниця відношень R1 і R2",
+          "is_correct": false
+        },
+        {
+          "message": "Об'єднання відносин R1 і R2",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Що означає термін ступінь відношення?",
+      "answers": [
+        {
+          "message": "Кількість кортежів",
+          "is_correct": false
+        },
+        {
+          "message": "Кількість атрибутів",
+          "is_correct": true
+        },
+        {
+          "message": "Кількість доменів",
+          "is_correct": false
+        },
+        {
+          "message": "Кількість сегментів",
+          "is_correct": false
+        },
+        {
+          "message": "Кількість аномалій",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Від яких типів аномалій розробник позбавляється в процесі нормалізації універсального відношення?",
+      "answers": [
+        {
+          "message": "Сумісності, розмірності",
+          "is_correct": false
+        },
+        {
+          "message": "Інтеграції, адаптації, уніфікації",
+          "is_correct": false
+        },
+        {
+          "message": "Модульності, верифікації, оптимізації",
+          "is_correct": false
+        },
+        {
+          "message": "Оновлення, видалення, вставки",
+          "is_correct": true
+        },
+        {
+          "message": "Коректності, функціональності",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Які функції з представлених властиві системам управління базами даних (СУБД)?",
+      "answers": [
+        {
+          "message": "Управління зовнішніми периферійними пристроями ",
+          "is_correct": false
+        },
+        {
+          "message": "Захист від вірусів",
+          "is_correct": false
+        },
+        {
+          "message": "Управління буферами оперативної пам'яті, журналізація",
+          "is_correct": true
+        },
+        {
+          "message": "Перевірка файлової системи",
+          "is_correct": false
+        },
+        {
+          "message": "Управління потоками робіт",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Яке з наведених визначень відповідає визначенню реляційна база даних?",
+      "answers": [
+        {
+          "message": "Таблиця з даними",
+          "is_correct": false
+        },
+        {
+          "message": "Таблиця формату EXCEL",
+          "is_correct": false
+        },
+        {
+          "message": "Таблиця, вбудована в текстовий файл",
+          "is_correct": false
+        },
+        {
+          "message": "Набір таблиць",
+          "is_correct": false
+        },
+        {
+          "message": "Набір відношень і зв'язків між ними",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Які типи даних підтримують системи управління базами даних (СУБД)?",
+      "answers": [
+        {
+          "message": "Семантичний, груповий",
+          "is_correct": false
+        },
+        {
+          "message": "Числовий, текстовий",
+          "is_correct": true
+        },
+        {
+          "message": "Експонентний, предикатний",
+          "is_correct": false
+        },
+        {
+          "message": "Фреймовий, продукційний",
+          "is_correct": false
+        },
+        {
+          "message": "Онтологічний, предикатний",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Якими компонентами визначається реляційна модель даних?",
+      "answers": [
+        {
+          "message": "Таблиця, колонка, запис",
+          "is_correct": false
+        },
+        {
+          "message": "Атрибут, домен, кортеж, відношення",
+          "is_correct": true
+        },
+        {
+          "message": "Зв’язок, підпорядкованість, дуга, вершина",
+          "is_correct": false
+        },
+        {
+          "message": "Фрейм, слот, вершина",
+          "is_correct": false
+        },
+        {
+          "message": "Каталог, файл, зв’язок, логін",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Які функції виконує мова визначення даних (МВД) сучасних систем управління базами даних (СУБД)?",
+      "answers": [
+        {
+          "message": "Фільтрація даних за умовою",
+          "is_correct": false
+        },
+        {
+          "message": "Формування звітних форм користувача",
+          "is_correct": false
+        },
+        {
+          "message": "Створення екранних форм користувача",
+          "is_correct": false
+        },
+        {
+          "message": "Створення відношення, типів атрибутів",
+          "is_correct": true
+        },
+        {
+          "message": "Завантаження розподіленої бази даних",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Вивчіть структуру відношення EMPLOYEES:\n \nEMPLOYEES:\nEMP_ID NUMBER(4) NOT NULL\nLAST_NAME VARCHAR2(30) NOT NULL\nFIRST_NAME VARCHAR2(30)\nDEPT_ID NUMBER(2)\nJOB_CAT VARCHAR2(30)\nSALARY NUMBER(8,2)\nЯкий запит повертає максимальну зарплату для кожної посади в кожному відділі?\n",
+      "answers": [
+        {
+          "message": "SELECT dept_id, job_cat, MAX(salary) FROM employees WHERE salary > MAX (salary);",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id,job_cat;",
+          "is_correct": true
+        },
+        {
+          "message": "SELECT dept_id, job_cat, MAX(salary) FROM employees;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT dept_id, job_cat, MAX(salary) FROM employees GROUP BY dept_id, job_cat, salary;",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Необхідно відобразити назви книг, які відповідають наступним критеріям: \n1. Куплені до 21 січня 2001 р.; \n2. Ціна книги менше $ 500 або більше $ 900. \nПотрібно також відсортувати книги по даті покупки, починаючи з тих, що були продані найменший час назад. Який запит слід використовувати?",
+      "answers": [
+        {
+          "message": "SELECT book_title FROM books WHERE price between 500 and 900 AND purchase_date < '21-JAN-2001' ORDER BY purchase_date;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT book_title FROM books WHERE price IN (500,900) AND purchase_date < '21-JAN-2001' ORDER BY purchase date ASC;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT book_title FROM books WHERE price < 500 or > 900 AND purchase_date < '21-JAN-2001' ORDER BY purchase date DESC;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT book_title FROM books WHERE (price < 500 OR price > 900) AND purchase_date < '21-JAN-2001' ORDER BY purchase date DESC;",
+          "is_correct": true
+        },
+        {
+          "message": "SELECT book_title FROM books WHERE price between 500 and 900 AND purchase_date > '21-JAN-2001' ORDER BY purchase_date;",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Відношення EMP містить наступні атрибути: ENAME VARCHAR2(35) SALARY NUMBER(8,2) HIRE_DATE DATE Потрібно отримати список співробітників, які працювали в компанії більше 5 років. Який SQL-запит поверне потрібний результат?",
+      "answers": [
+        {
+          "message": "SELECT ENAME FROM EMP WHERE SYSDATE-HIRE_DATE >5;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT ENAME FROM EMP WHERE HIRE_DATE-SYSDATE >5;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT ENAME FROM EMP WHERE months_between(SYSDATE,  HIREDATE)>5*12;",
+          "is_correct": true
+        },
+        {
+          "message": "SELECT ENAME FROM EMP WHERE (SYSDATE-HIRE_DATE)*365 >5;",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT ENAME FROM EMP WHERE SYSDATE-HIRE_DATE <5;",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Який SELECT-запиті слід використовувати для того, щоб обмежити перелік відображуваних співробітників тими, хто отримує зарплату понад 5000?",
+      "answers": [
+        {
+          "message": "ORDER BY SALARY < 5000",
+          "is_correct": false
+        },
+        {
+          "message": "GROUP BY SALARY > 5000.AND.>0",
+          "is_correct": false
+        },
+        {
+          "message": "HAVING SALARY > 5000",
+          "is_correct": false
+        },
+        {
+          "message": "WHERE SALARY > 5000",
+          "is_correct": true
+        },
+        {
+          "message": "ORDER BY SALARY > 5000.AND.>0",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Потрібно відобразити ті прізвища співробітників, у яких другий символом є A. Який SQL-запит відобразить потрібний результат?",
+      "answers": [
+        {
+          "message": "SELECT last_name FROM EMP WHERE last_ name LIKE '_A%';",
+          "is_correct": true
+        },
+        {
+          "message": "SELECT last_name FROM EMP WHERE last name ='_A%'",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT last_name FROM EMP WHERE last name ='$А%';",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT last_name FROM EMP WHERE last name LIKE '*A%'",
+          "is_correct": false
+        },
+        {
+          "message": "SELECT last_name FROM EMP WHERE last_ name LIKE '#A%';",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Потрібно підрахувати сумарну зарплату співробітників відділу. Яку групову функцію слід використовувати?",
+      "answers": [
+        {
+          "message": "MAX",
+          "is_correct": false
+        },
+        {
+          "message": "MIN",
+          "is_correct": false
+        },
+        {
+          "message": "SUM",
+          "is_correct": true
+        },
+        {
+          "message": "COUNT",
+          "is_correct": false
+        },
+        {
+          "message": "TOTAL",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Чому дорівнює розмір страниці в ОС Windows?",
+      "answers": [
+        {
+          "message": "4 Кбайта",
+          "is_correct": true
+        },
+        {
+          "message": "1 Кбайт",
+          "is_correct": false
+        },
+        {
+          "message": "64 Кбайта",
+          "is_correct": false
+        },
+        {
+          "message": "4 Гбайта",
+          "is_correct": false
+        },
+        {
+          "message": "може бути довільним",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Чому дорівнює розмір сегменту в ОС Windows?",
+      "answers": [
+        {
+          "message": "4 Кбайта",
+          "is_correct": false
+        },
+        {
+          "message": "1 Кбайт",
+          "is_correct": false
+        },
+        {
+          "message": "може бути довільним",
+          "is_correct": true
+        },
+        {
+          "message": "64 Кбайта",
+          "is_correct": false
+        },
+        {
+          "message": "4 Гбайта",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Який з цих регістрів є селектором?",
+      "answers": [
+        {
+          "message": "DX",
+          "is_correct": false
+        },
+        {
+          "message": "DL",
+          "is_correct": false
+        },
+        {
+          "message": "DS",
+          "is_correct": true
+        },
+        {
+          "message": "EDX",
+          "is_correct": false
+        },
+        {
+          "message": "IP",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Яке з цих повідомлень призначене для передачі даних у віконну функцію?",
+      "answers": [
+        {
+          "message": "COPYDATA",
+          "is_correct": false
+        },
+        {
+          "message": "COPYSTRUCT",
+          "is_correct": false
+        },
+        {
+          "message": "MOVEWINDOW",
+          "is_correct": false
+        },
+        {
+          "message": "SENDMESSAGE",
+          "is_correct": true
+        },
+        {
+          "message": "COPYDATASTRUCT",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Згідно з мовною конвенцією «C» (cdecl) після виклику функції стек звільняє від параметрів",
+      "answers": [
+        {
+          "message": "функція, яку викликають",
+          "is_correct": false
+        },
+        {
+          "message": "операційна система",
+          "is_correct": false
+        },
+        {
+          "message": "або функція, яка викликає, або функція, яку викликають, в залежності від програмної реалізації",
+          "is_correct": false
+        },
+        {
+          "message": "користувач",
+          "is_correct": false
+        },
+        {
+          "message": "функція, яка викликає",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Яке з наведених визначень операційної системи (ОС)  є найбільш вірним та повним",
+      "answers": [
+        {
+          "message": "ОС – це комплекс керуючих і обробляючих програм, призначених для найбільш ефективного використання ресурсів обчислювальної системи, організації надійних обчислень та спрощення роботи користувача з обчислювальною системою",
+          "is_correct": true
+        },
+        {
+          "message": "ОС – це набір програм, які забезпечують користувачам зручності при роботі з зовнішніми пристроями",
+          "is_correct": false
+        },
+        {
+          "message": "ОС – це система, жорстко вбудована в комп’ютер при його виготовленні для виконання арифметичних и логічних операцій",
+          "is_correct": false
+        },
+        {
+          "message": "ОС – це сукупність програм, які забезпечують ефективне використання можливостей процесору та пам’яті комп’ютеру",
+          "is_correct": false
+        },
+        {
+          "message": "ОС – це група програм, які спеціально підключаються для ефективного виконання операцій з плаваючою точкою",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Яка кількість розрядів адреси сторінки і яких саме використовується для зберігання інформації про сторінку?",
+      "answers": [
+        {
+          "message": "12 молодших",
+          "is_correct": true
+        },
+        {
+          "message": "12 старших",
+          "is_correct": false
+        },
+        {
+          "message": "16 молодших",
+          "is_correct": false
+        },
+        {
+          "message": "16 старших",
+          "is_correct": false
+        },
+        {
+          "message": "16 молодших",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Оберіть вірний варіант кількості та розміру (в дужках) компонент адреси сторінки при дворівневій сторінковій адресації",
+      "answers": [
+        {
+          "message": "2 компоненти: А0(22), А1(10)",
+          "is_correct": false
+        },
+        {
+          "message": "3 компоненти: А0(2), А1(10), А2(20)",
+          "is_correct": false
+        },
+        {
+          "message": "2 компоненти: А0(10), А1(22)",
+          "is_correct": false
+        },
+        {
+          "message": "3 компоненти: А0(12), А1(10), А2(10)",
+          "is_correct": true
+        },
+        {
+          "message": "2 компоненти: А0(16), А1(16)",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Скільки та які типи процесів виконуються в режимі користувача?",
+      "answers": [
+        {
+          "message": "3 типи:  постійні процеси, процеси-служби та користувальницькі процеси (додатки) ",
+          "is_correct": false
+        },
+        {
+          "message": "2 типи:  постійні процеси та користувальницькі процеси (додатки) ",
+          "is_correct": false
+        },
+        {
+          "message": "4 типи:  постійні процеси, процеси-служби, користувальницькі процеси (додатки) та процеси обслуговування монітору",
+          "is_correct": false
+        },
+        {
+          "message": "3 типи:  користувальницькі процеси (додатки) , процеси-служби та підсистеми середовища ",
+          "is_correct": false
+        },
+        {
+          "message": "4 типи:  постійні процеси, процеси-служби, користувальницькі процеси (додатки) та підсистеми середовища",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Який вид ресурсу називається критичним?",
+      "answers": [
+        {
+          "message": "Ресурс, який найбільш часто піддається критиці",
+          "is_correct": false
+        },
+        {
+          "message": "Загальний ресурс, використання якого очікується у найбільшій кількості процесів",
+          "is_correct": false
+        },
+        {
+          "message": "Загальний ресурс, який одночасно може використовуватися лише одним процесом",
+          "is_correct": true
+        },
+        {
+          "message": "Ресурс, випробування якого проходять у критичному режимі",
+          "is_correct": false
+        },
+        {
+          "message": "Загальний ресурс, який не використовується жодним процесом",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "В якому з наведених варіантів найбільш повно та вірно названі засоби синхронізації потоків?",
+      "answers": [
+        {
+          "message": "Кварцевий генератор частоти",
+          "is_correct": false
+        },
+        {
+          "message": "Події, м’ютекси, семафори",
+          "is_correct": true
+        },
+        {
+          "message": "М’ютекси, події, світлофори",
+          "is_correct": false
+        },
+        {
+          "message": "Модуль підтримки єдиного часу",
+          "is_correct": false
+        },
+        {
+          "message": "Прапори, семафори, м’ютекси",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Які процеси можуть стояти в черзі процесів, готових до виконання?",
+      "answers": [
+        {
+          "message": "Тільки нові процеси та ті, для яких закінчився квант часу процесору",
+          "is_correct": false
+        },
+        {
+          "message": "Тільки ті, для яких закінчився квант часу процесору",
+          "is_correct": false
+        },
+        {
+          "message": "Тільки відкладені процеси та ті, для яких закінчився квант часу процесору",
+          "is_correct": false
+        },
+        {
+          "message": "Відкладені, нові та ті, для яких закінчився квант часу процесору",
+          "is_correct": true
+        },
+        {
+          "message": "Тільки нові та відкладені процеси",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Чому дорівнює змінна z   після виклику функції char  x=41, y=7, z=1 ; z = fun(x,y);  якщо функція має вигляд: char fun(char x, char y) asm { mov AL, x mov AH, 1 div y };",
+      "answers": [
+        {
+          "message": "42",
+          "is_correct": true
+        },
+        {
+          "message": "5",
+          "is_correct": false
+        },
+        {
+          "message": "3",
+          "is_correct": false
+        },
+        {
+          "message": "6",
+          "is_correct": false
+        },
+        {
+          "message": "40",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Що робить зазначений фрагмент програми? while (GetMessage(&Msg,NULL,0,0)) DispatchMessage(&Msg);",
+      "answers": [
+        {
+          "message": "Це тіло стандартної віконної функції",
+          "is_correct": false
+        },
+        {
+          "message": "Це цикл передачі повідомлень у дочірній потік",
+          "is_correct": false
+        },
+        {
+          "message": "Це цикл передачі повідомлень у дочірній процес",
+          "is_correct": false
+        },
+        {
+          "message": "Це цикл введення даних в віконній програмі",
+          "is_correct": false
+        },
+        {
+          "message": "Це цикл обробки повідомлень",
+          "is_correct": true
+        }
+      ]
+    },
+    {
+      "message": "Якщо необхідно запустити дочірній процес “prog.exe” та передати йому файл «file.txt», то помилковим варіантом виклику функції  CreateProcess  є такий:",
+      "answers": [
+        {
+          "message": "CreateProcess(NULL, “prog file.txt”, …);",
+          "is_correct": false
+        },
+        {
+          "message": "CreateProcess(“prog.exe”, “prog file.txt”, …);",
+          "is_correct": false
+        },
+        {
+          "message": "CreateProcess(“prog”, “prog.exe file.txt”, …);",
+          "is_correct": true
+        },
+        {
+          "message": "CreateProcess(“prog.exe”, “prog.exe file.txt”, …);",
+          "is_correct": false
+        },
+        {
+          "message": "CreateProcess(“prog.exe”, “NULL file.txt”, …);",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Яка функція застосовується для видалення таймеру?",
+      "answers": [
+        {
+          "message": "DeleteTimer(…);",
+          "is_correct": false
+        },
+        {
+          "message": "DestroyTimer(…);",
+          "is_correct": false
+        },
+        {
+          "message": "EndTimer(…);",
+          "is_correct": false
+        },
+        {
+          "message": "KillTimer(…);",
+          "is_correct": true
+        },
+        {
+          "message": "CreateTimer(…);",
+          "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Якщо AL=25, AH=42, то чому дорівнює результат виконання команди xor AL, AH ?",
+      "answers": [
+        {
+          "message": "67",
+          "is_correct": false
+        },
+        {
+          "message": "59",
+          "is_correct": false
+        },
+        {
+          "message": "8",
+          "is_correct": false
+        },
+        {
+          "message": "51",
+          "is_correct": true
+        },
+        {
+          "message": "63", "is_correct": false
+        }
+      ]
+    },
+    {
+      "message": "Чому дорівнює розмір області пам’яті (в байтах), який фактично буде заблоковано в результаті виклику функції VirtualLock(1234560, 12345); ?",
+      "answers": [
+        {"message": "1234560", "is_correct": false},
+        {"message": "12345", "is_correct": false},
+        {"message": "1236992", "is_correct": false},
+        {"message": "12288", "is_correct": false},
+        {"message": "16384", "is_correct": true}
+      ]
+    }
+  ]
+}
